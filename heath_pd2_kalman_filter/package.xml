@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>heath_pd2_kalman_filter</name>
+  <version>1.0.1</version>
+  <license>Unlicensed</license>
+
+  <description>Implementation of a 1D Kalman Filter and a ROS node that operates two instantiations of the filter and plot/publishes the results.</description>
+
+  <maintainer email="jared.c.heath.17@dartmouth.edu">Jared Heath</maintainer>
+  <author email="jared.c.heath.17@dartmouth.edu">Jared Heath</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
